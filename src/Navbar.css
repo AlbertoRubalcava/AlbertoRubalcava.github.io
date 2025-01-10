@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-family: 'Gloock', serif;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  margin:0;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.nav-links i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-links a:hover,
+.nav-links i:hover {
+  color: #037754;
+}
