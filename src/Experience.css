@@ -43,7 +43,7 @@
 .timeline {
   position: relative;
   display: flex;
-  gap: 15rem; 
+  gap: 20rem; 
   align-items: center;
 }
 

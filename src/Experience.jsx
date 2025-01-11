@@ -9,7 +9,7 @@ const Experience = () => {
       year: "2024 - Present",
       title: "Web Developer SA",
       company: "CSUN IT",
-      description: "Develop an AI focused course recommendation planner in Python utilizing 20 years of CSUN course data, enhancing student academic planning by recommending classes based on completed coursework and academic goals.<br />• Work with other student assistants and professionals to ensure the model has a 95% accuracy benchmark before deploying the tool, ensuring reliability to students and advisors.",
+      description: "• Develop an AI focused course recommendation planner in Python utilizing 20 years of CSUN course data, enhancing student academic planning by recommending classes based on completed coursework and academic goals.<br />• Work with other student assistants and professionals to ensure the model has a 95% accuracy benchmark before deploying the tool, ensuring reliability to students and advisors.",
       image: CSUN
     },
     {

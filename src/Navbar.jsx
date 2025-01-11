@@ -5,8 +5,9 @@ import BlackLogo from './images/BLogo.png';
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div><img className="logo" src={BlackLogo}></img></div>
+
       <div className="nav-links">
+        <a href="#home"><div><img className="logo" src={BlackLogo}></img></div></a>
         <a href="#experience">experience</a>
         <a href="#projects">projects</a>
         <a href="#contact">contact</a>
