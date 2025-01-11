@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Introduction.css';
 import Headshot from './images/Headshot.JPG';
-
 
 const Introduction = () => {
   return (

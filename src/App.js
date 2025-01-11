@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import '@fortawesome/fontawesome-free/css/all.css';
 import Introduction from './Introduction';
+import Experience from './Experience';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
           <Navbar />
           <Introduction />
+          <Experience />
     </div>
   );
 }
