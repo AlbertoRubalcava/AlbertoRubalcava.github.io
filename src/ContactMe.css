@@ -1,7 +1,8 @@
 .contact-container {
   max-width: 80%;
   margin: auto auto;
-  padding: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
   background: #fff;
   border-radius: 10px;
   font-family: "Gloock", serif;
