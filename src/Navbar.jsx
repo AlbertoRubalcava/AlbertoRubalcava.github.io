@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import BlackLogo from './images/BLogo.png';
 import resume from './images/Alberto Rubalcava Resume Portfolio.pdf'
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div className="navbar">
-      <a href="#home"><div><img className="logo" src={BlackLogo}></img></div></a>
-      <div className="nav-links">
+      <a href="#home"><div><img className="logo" src={BlackLogo} alt="Logo" /></div></a>
+      <button className="hamburger" onClick={toggleMenu}>
+        ☰
+      </button>
+      <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
         <a href="#experience">experience</a>
         <a href="#projects">projects</a>
         <a href="#contact">contact</a>
