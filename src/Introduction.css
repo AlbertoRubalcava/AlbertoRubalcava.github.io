@@ -8,8 +8,12 @@
   font-family: 'Gloock', serif;
   width: 90%;
   max-width: 900px; 
-  margin: 11% auto; 
+  margin: auto auto; 
   height: 24rem;
+}
+.profile-container{
+  padding-top:11%;
+  padding-bottom: 5%;
 }
 
 .profile-text {

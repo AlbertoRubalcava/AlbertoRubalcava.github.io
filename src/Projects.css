@@ -1,5 +1,5 @@
 .projects-section {
-  padding: 30px 80px;
+  padding: 5rem 80px;
   font-family: 'Gloock', serif;
   margin: 0;
 }
@@ -45,16 +45,19 @@
 
 .project-card-wrapper {
   display: flex;
-  align-self: flex-start; 
+  justify-content: flex-start; 
   width: 100%;
 }
 
 .project-card-wrapper.reverse {
-  align-self: flex-end;
+  justify-content: flex-end;
 }
 
 .project-card.reverse {
   flex-direction: row-reverse; 
+}
+.project-card-link.reverse {
+  justify-items: flex-end;
 }
 
 .project-text {

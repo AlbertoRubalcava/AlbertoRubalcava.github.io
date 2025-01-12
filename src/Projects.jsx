@@ -44,7 +44,7 @@ const Projects = () => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-card-link"
+            className={`project-card-link ${index % 2 === 0 ? "" : "reverse"}`}
           >
             <div className={`project-card ${index % 2 === 0 ? "" : "reverse"}`}>
               <div className="project-text">

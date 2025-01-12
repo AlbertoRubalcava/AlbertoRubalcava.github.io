@@ -5,6 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import Introduction from './Introduction';
 import Experience from './Experience';
 import Projects from './Projects';
+import ContactMe from './ContactMe';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Introduction />
           <Experience />
           <Projects />
+          <ContactMe />
     </div>
   );
 }

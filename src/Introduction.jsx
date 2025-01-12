@@ -4,7 +4,8 @@ import Headshot from './images/Headshot.JPG';
 
 const Introduction = () => {
   return (
-    <div className="profile-card" id='home'>
+    <div className='profile-container' id='home'>
+    <div className="profile-card">
       <div className="profile-text">
         <h2>
           Hi, I'm <span className="highlight">Alberto Rubalcava</span>
@@ -23,6 +24,7 @@ const Introduction = () => {
           className="profile-pic"
         />
       </div>
+    </div>
     </div>
   );
 };
