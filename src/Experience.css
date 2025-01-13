@@ -36,7 +36,7 @@
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 5rem);
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -147,40 +147,40 @@
 
 @media screen and (max-width: 768px) {
   .timeline {
-    gap: 2rem; /* Smaller gap for medium screens */
+    gap: 2rem; 
     height:100vh;
   }
 
   .timeline-item {
-    width: 80vw; /* Show one item and a bit of the next */
+    width: 80vw; 
     
   }
   .timeline-container {
-    width: max-content; /* Allow container to stretch based on content */
+    width: max-content; 
     height:100vh;
     overflow-x: auto;
   }
 
   .central-line {
-    width: 100%;  /* Line spans the full width of the container */
+    width: 100%; 
   }
 }
 
 @media screen and (max-width: 480px) {
   .timeline {
-    gap: 2rem; /* Smaller gap for medium screens */
+    gap: 2rem; 
     height:100vh;
   }
   .timeline-item {
-    width: 75vw; /* Adjust for very small screens */
+    width: 75vw; 
   }
   .timeline-container {
-    width: max-content; /* Allow container to stretch based on content */
+    width: max-content; 
     height:100vh;
     overflow-x: auto;
   }
 
   .central-line {
-    width: 100%;  /* Line spans the full width of the container */
+    width: 100%;  
   }
 }
