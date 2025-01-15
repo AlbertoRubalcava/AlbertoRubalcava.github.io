@@ -24,11 +24,11 @@ const events = [
 
 const Experience = () => {
   return (
-    <div className='margining'id="experience">
+    <div className='margining'id="experience" >
       <nav class="tmln tmln--box tmln--hr" >
         <h2 class="tmln__header" >Work Experience</h2>
           <ul class="tmln__list">
-            <li class="tmln__item tmln__item--bg-lght">
+            <li class="tmln__item tmln__item--bg-lght" >
               <span data-title>June 2024 - Present</span>
               <h3 class="tmln__item-headline">Web Development - Student Assistant</h3>
               <h4 class="tmln__item-headline">CSUN IT</h4>

@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Projects.css';
 import SDC from './images/SDC.png';
 import CGRP from './images/CGRP.png';
 import JAM from './images/JAM.png';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
   const projects = [
@@ -29,6 +31,13 @@ const Projects = () => {
     },
   ];
 
+    useEffect(() => {
+      AOS.init({
+        duration: 1000, 
+        once: false, 
+      });
+    }, []);
+
   return (
     <div className="projects-section" id="projects">
       <h2 className="projects-title">Projects</h2>
@@ -39,6 +48,7 @@ const Projects = () => {
             index % 2 === 0 ? "" : "reverse"
           }`}
           key={index}
+          data-aos="fade-up"
         >
           <a
             href={project.link}

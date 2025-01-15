@@ -6,6 +6,7 @@ import Introduction from './Introduction';
 import Experience from './Experience';
 import Projects from './Projects';
 import ContactMe from './ContactMe';
+import Skillset from './Skills';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Introduction />
           <Experience />
           <Projects />
+          <Skillset />
           <ContactMe />
     </div>
   );
