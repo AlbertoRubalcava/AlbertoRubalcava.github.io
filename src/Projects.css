@@ -140,6 +140,7 @@
   .project-card-link.reverse {
     justify-items: center;
     padding:1rem;
+    width:100%;
   }
 
   .project-card-link {
