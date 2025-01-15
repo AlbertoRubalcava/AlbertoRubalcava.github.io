@@ -1,7 +1,6 @@
-.App {
-  text-align: center;
-}
 
-.Logo{
-  height:100px;
+
+body{
+  margin:0;
+  font-family: "Gloock",serif;
 }

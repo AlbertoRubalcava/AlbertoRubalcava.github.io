@@ -1,0 +1,67 @@
+.contact-container {
+  max-width: 80%;
+  margin: auto auto;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  background: #fff;
+  border-radius: 10px;
+  font-family: "Gloock", serif;
+}
+
+.contact-header {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Gloock", serif;
+}
+
+.contact-description {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  font-family: "Gloock", serif;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Gloock", serif;
+}
+
+.contact-form label {
+  font-size: 0.9rem;
+  color: #555;
+  font-family: "Gloock", serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 0;
+  width: 100%;
+  font-family: "Gloock", serif;
+  resize: vertical
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #037754;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: 60%;
+  align-self: center;
+  font-family: "Gloock", serif;
+}
+
+.contact-form button:hover {
+  background-color: #04684a;
+}

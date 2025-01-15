@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-family: 'Gloock', serif;
+  margin: 0;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.logo {
+  height: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.nav-links i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-links a:hover,
+.nav-links i:hover {
+  color: #037754;
+}
+
+.hamburger {
+  display: none; 
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: black;
+}
+
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; 
+    padding-right: 3.5rem;
+  }
+
+  .nav-links {
+    display: none; 
+    position: absolute;
+    top: 60px; 
+    right: 1.7rem;
+    background-color: white;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 999;
+  }
+
+  .nav-links.active {
+    display: flex; 
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem; 
+  }
+
+  .nav-links i {
+    font-size: 1.3rem; 
+  }
+}

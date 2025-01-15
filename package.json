@@ -4,9 +4,14 @@
   "homepage": "https://albertorubalcava.com",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
   },
