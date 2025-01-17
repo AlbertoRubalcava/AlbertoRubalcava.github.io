@@ -28,6 +28,16 @@
   flex-direction: column;
   gap: 15px;
   font-family: "Gloock", serif;
+  align-items: center;
+  justify-content: center; 
+}
+
+.contact-form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns text (labels) to the left */
+  width: 100%; /* Makes inputs take the full width of their container */
+  max-width: 700px; /* Optional: restricts max width for better aesthetics */
 }
 
 .contact-form label {
@@ -38,6 +48,7 @@
 
 .contact-form input,
 .contact-form textarea {
+  box-sizing: border-box;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -45,7 +56,8 @@
   font-weight: 0;
   width: 100%;
   font-family: "Gloock", serif;
-  resize: vertical
+  resize: vertical;
+
 }
 
 .contact-form button {
@@ -57,7 +69,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  max-width: 60%;
+  max-width: 200px;
   align-self: center;
   font-family: "Gloock", serif;
 }

@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: "AI Jam 2024",
       description:
-        "Collaborated with a team to design, develop, and test a competition-ready robot. Focused on the wireless Arduino integration, movement sequences, and sensor functionality to ensure optimal performance.",
+        "Secured 3rd place in a university-wide AI competition by developing a prototype of a personalized AI-driven course planner to optimize student schedules. Designed and developed a website prototype, and contributed to the research and implementation.",
       image: JAM,
       link: 'https://albertorubalcava.com/AI-Jam2024/',
     },
