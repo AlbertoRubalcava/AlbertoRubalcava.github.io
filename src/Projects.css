@@ -43,7 +43,7 @@
   border-radius: 20px;
   overflow: hidden;
   padding: 1.5rem;
-  
+  box-sizing: border-box;
 }
 
 .project-card-wrapper {
@@ -125,6 +125,10 @@
 
   .project-card {
     padding: 1rem;
+    width: 100%; 
+    box-sizing: border-box; 
+    padding:0;
+    margin:0;
   }
 
   .project-text h3 {
@@ -143,12 +147,22 @@
     justify-items: center;
     padding:1rem;
     width:100%;
+    padding:0;
+    margin:0;
   }
 
   .project-card-link {
     justify-items: center;
     padding:1rem;
     width:100%;
+    padding:0;
+    margin:0;
+  }
+
+  .projects-container {
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
 }
