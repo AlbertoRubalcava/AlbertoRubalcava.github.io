@@ -11,7 +11,7 @@ const Introduction = () => {
           Hi, I'm <span className="highlight">Alberto Rubalcava</span>
         </h2>
         <p>
-          I'm a junior Computer Science student studying at California State
+          I'm a senior Computer Science student studying at California State
           University, Northridge. I am passionate in Web Development, Embedded
           Systems, and Software Engineering. Explore my work below and see how I
           bring these passions to life through my projects and experience.

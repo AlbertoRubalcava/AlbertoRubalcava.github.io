@@ -10,6 +10,13 @@ import "aos/dist/aos.css";
 const Projects = () => {
   const projects = [
     {
+      title: "SS12 Code for a Cause 2025",
+      description:
+        "Collaborated with a team of 7 in developing a gamified ASL learning mobile app. Using React Native Expo with TypeScript, I focused on frontend development and design of the app. Additionally, I conducted research into UI/UX strategies tailored for ADHD-friendly design, emphasizing dopamine regulation and habit-building techniques.",
+      image: SS12,
+      link: 'https://github.com/vicat0ria/chipi-chipi/',
+    },
+    {
       title: "Car Reservation System",
       description:
         "Designed and developed the front end of the car reservation system, allowing users to search available cars, make reservations, and complete the checkout process.",
@@ -30,13 +37,6 @@ const Projects = () => {
       image: JAM,
       link: 'https://albertorubalcava.com/AI-Jam2024/',
     },    
-    {
-      title: "SS12 Code for a Cause 2025",
-      description:
-        "Collaborates with a team of 7 in developing a gamified ASL learning mobile app. Using React Native Expo with TypeScript, I focused on frontend development and design of the app. Additionally, I conducted research into UI/UX strategies tailored for ADHD-friendly design, emphasizing dopamine regulation and habit-building techniques.",
-      image: SS12,
-      link: 'https://github.com/vicat0ria/chipi-chipi/',
-    },
   ];
 
     useEffect(() => {
